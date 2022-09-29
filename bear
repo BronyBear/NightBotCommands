@@ -1,4 +1,4 @@
-if (x == 'owner'){
-Console.log("@$(user) is the Papa bear!")
-}
-}
+switch (true){
+  case ("$(userlevel)" == 'owner')
+    '@"$(user)" is the Papa bear!'
+  }
