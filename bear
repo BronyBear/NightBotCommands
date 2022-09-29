@@ -1,4 +1,5 @@
 switch (true){
   case ("$(userlevel)" == 'owner')
     '@"$(user)" is the Papa bear!'
+    break;
   }
