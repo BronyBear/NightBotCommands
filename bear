@@ -1,6 +1,4 @@
-{ 
-'owner':$(UserId) is the Papa Bear!; 
-'moderator':$(UserId) is a Security Bear!;
-'subscriber':$(UserId) is a bear!; 
-'everyone':$(UserId) is a cute widdle cub!;
+if (x == 'owner'){
+Console.log("@$(user) is the Papa bear!")
+}
 }
