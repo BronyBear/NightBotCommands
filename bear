@@ -1,10 +1,6 @@
-const level = $(UserLevel);
-switch (level) { 
-	case 'owner': console.log("$(UserId) is the Papa Bear!"); 
-	break; 
-	case 'moderator':console.log("$(UserId) is a Security Bear!");
-	break;
-	case 'subscriber': console.log("$(UserId) is a bear!"); 
-    break; 
-    default: console.log("$(UserId) is a cute widdle cub!");
-		}
+{ 
+'owner':$(UserId) is the Papa Bear!; 
+'moderator':$(UserId) is a Security Bear!;
+'subscriber':$(UserId) is a bear!; 
+'everyone':$(UserId) is a cute widdle cub!;
+}
